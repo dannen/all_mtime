@@ -17,20 +17,30 @@ all_mtime operates on the following file suffixes:
 <li>divx
 <li>flv
 <li>gif
+<li>gvp
 <li>jpg
+<li>jpe
 <li>jpeg
 <li>m1v
+<li>m4v
 <li>mov
 <li>mp4
+<li>mpa
 <li>mpeg
 <li>mpe
 <li>mpg
+<li>nef
+<li>ogv
 <li>png
 <li>ram
 <li>rm
+<li>swf
+<li>tif
 <li>viv
+<li>wav
 <li>wmv
 </ul>
+
 
 All_mtime strips the following characters from a filename:
 
