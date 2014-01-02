@@ -5,7 +5,7 @@ use POSIX;
 my %seen;
 while (<*>){
     next unless -f;
-    if ($_ =~ /(3g2|3gp|asf|avi|bmp|divx|flv|gif|jpg|jpeg|m1v|mov|mp4|mpeg|mpe|mpg|png|ram|rm|viv|wmv)$/i ) {
+    if ($_ =~ /(3g2|3gp|asf|avi|bmp|divx|flv|gif|gvp|jpg|jpe|jpeg|m1v|m4v|mov|mp4|mpa|mpeg|mpe|mpg|nef|ogv|png|ram|rm|swf|tif|viv|wav|wmv)$/i ) {
     # get modify date from file
     my $mdate = strftime "%Y_%m_%d_%H_%M_%S", localtime((lstat($_))[9]);
 
